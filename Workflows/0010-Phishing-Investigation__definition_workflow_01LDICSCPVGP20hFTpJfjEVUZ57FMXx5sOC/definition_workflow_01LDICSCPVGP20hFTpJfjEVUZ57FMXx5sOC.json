@@ -3606,8 +3606,8 @@
                         "variable_workflow_01KVOGF4J481T6SCd7uh5fW7n47Q712nleJ": "$workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LDICSBLL7DK7UYAjRXpksRudsOQVn67Hs$",
                         "variable_workflow_01KVOGF4J4FZC0jmaR42b1FbIzVZA19KbYL": "An investigation was conducted in response to an email arriving in the investigation mailbox.\n\nObservable statistics:\n* Clean: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LGYIGNL764O6e6Ge5cmuGi0m766DQgdTC$\n* Suspicious: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LGYJ91SGAGA7VyrEdTBs7FjF0aFQr2yx0$\n* Malicious: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LGYJQVFW8HJ2nEXVlQm67JaGK41nYRUUJ$\n* Unknown: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LGYM9HYUS0T5tnd0alUn2JbXGhc0RxCID$\n\n$workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LDICSBLLOJT3g5rFBLxbOBw1UlF0Ql9mi$",
                         "variable_workflow_01KVOGF4J4IG81TQKFjqzLlnFJwiiNwXwSq": "$activity.definition_activity_01LDIDKP42Z4T0hGz0qVKv6nVCSvogJXewT.output.variable_workflow_01KWJ2ISHZ9753Hoi7x9S5EPpucAbm53HHF$",
-                        "variable_workflow_01KVOGF4J4JL52xC9ZXdjYwHt2SvRYkArli": "Email Investigation for \"$trigger.triggerevent_01LDICT231ZS43miaxKIy0SEERAAMo7ddn6.output.subject$\"",
-                        "variable_workflow_01KVOMXV9ERSV0M9j1WarflgSG8r5SpZ8b5": "Email Investigation for \"$trigger.triggerevent_01LDICT231ZS43miaxKIy0SEERAAMo7ddn6.output.subject$\"",
+                        "variable_workflow_01KVOGF4J4JL52xC9ZXdjYwHt2SvRYkArli": "Email Investigation for \"$workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LG4CXZB1PS85vMbaUCSTf8j02SCyIImgV$\"",
+                        "variable_workflow_01KVOMXV9ERSV0M9j1WarflgSG8r5SpZ8b5": "Email Investigation for \"$workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LG4CXZB1PS85vMbaUCSTf8j02SCyIImgV$\"",
                         "variable_workflow_01LFBYQJV9FZA2THdEQrMftLyGiiHP65nUq": "amber"
                       },
                       "runtime_user": {
@@ -3645,7 +3645,7 @@
                       "display_name": "Threat Response v2 - Create Incident",
                       "input": {
                         "variable_workflow_01KVVWMAKJ5X54vaAuNkKq259VyiO5JCeuC": "$activity.definition_activity_01LDIDKP42Z4T0hGz0qVKv6nVCSvogJXewT.output.variable_workflow_01KWJ2ISHZ9753Hoi7x9S5EPpucAbm53HHF$",
-                        "variable_workflow_01KVVWMAKJ9HX4TuMb2g74UqzpRLRxjwlwm": "Email Investigation for \"$trigger.triggerevent_01LDICT231ZS43miaxKIy0SEERAAMo7ddn6.output.subject$\"",
+                        "variable_workflow_01KVVWMAKJ9HX4TuMb2g74UqzpRLRxjwlwm": "Email Investigation for \"$workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LG4CXZB1PS85vMbaUCSTf8j02SCyIImgV$\"",
                         "variable_workflow_01KVVWMAKJBSF1Fxv8uLSCRGpOJCxkue4OH": "An investigation was conducted in response to an email arriving in the investigation mailbox.\n\nObservable statistics:\n* Clean: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LGYIGNL764O6e6Ge5cmuGi0m766DQgdTC$\n* Suspicious: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LGYJ91SGAGA7VyrEdTBs7FjF0aFQr2yx0$\n* Malicious: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LGYJQVFW8HJ2nEXVlQm67JaGK41nYRUUJ$\n* Unknown: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LGYM9HYUS0T5tnd0alUn2JbXGhc0RxCID$",
                         "variable_workflow_01KWIVDCZ7VJU1t9jPK4nZnnwHqnllu7dJm": "New",
                         "variable_workflow_01KWIVQVGZKUC0vUPbm3oCvqsYVV036tieP": "High",
@@ -4026,7 +4026,7 @@
                     "base_type": "activity",
                     "properties": {
                       "action_timeout": 180,
-                      "body": "Hello!\n\nThe email you submitted for review with the subject \"$trigger.triggerevent_01LDICT231ZS43miaxKIy0SEERAAMo7ddn6.output.subject$\" was found to be DANGEROUS!\n\nPlease do not open the message and delete it immediately!\n\n\nReference ID: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.output.instance_id$",
+                      "body": "Hello!\n\nThe email you submitted for review with the subject \"$workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.local.variable_workflow_01LG4CXZB1PS85vMbaUCSTf8j02SCyIImgV$\" was found to be DANGEROUS!\n\nPlease do not open the message and delete it immediately!\n\n\nReference ID: $workflow.definition_workflow_01LDICSCPVGP20hFTpJfjEVUZ57FMXx5sOC.output.instance_id$",
                       "continue_if_one_address_valid": false,
                       "continue_on_failure": false,
                       "display_name": "Send update to reporting user",
